@@ -1,0 +1,15 @@
+task  = 5
+step  = 2
+title = "S-bends on the descent"
+# Left bend 700-850 m ridden in the first ~11 s, then the right bend (from 1000 m) ahead.
+
+[[stage]]
+cmd = "set_profile"
+name = "demo"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 690
+
+[ask]
+text = "Does the road bend left, then right, on the descent, with no flicker, holes or popping?"

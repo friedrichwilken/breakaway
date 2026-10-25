@@ -1,0 +1,30 @@
+task  = 12
+step  = 4
+title = "Amount of talking over sweet-spot reps"
+loop_seconds = 90
+# mit-sweetspot-6x5 at FTP 200: 1185 s is 15 s before the first 5 min
+# sweet-spot rep (step 6, 1200-1500 s); at speed 4 one 90 s loop covers
+# 6 min of the workout.
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/mit-sweetspot-6x5.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 1185
+
+[[stage]]
+cmd = "set_speed"
+multiplier = 4
+
+[ask]
+text = "Over a few minutes, is the amount of talking about right?"

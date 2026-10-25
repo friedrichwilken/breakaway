@@ -1,0 +1,16 @@
+task  = 5
+step  = 4
+title = "Lap seam"
+loop_seconds = 15
+# Lap seam at 2000 m, crossed ~4 s after each re-stage.
+
+[[stage]]
+cmd = "set_profile"
+name = "demo"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 1940
+
+[ask]
+text = "Do you ride across this stretch without any visible jump? (This is where the lap restarts.)"

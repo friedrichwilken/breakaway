@@ -1,0 +1,6 @@
+#!/bin/sh
+# Git-native pre-push hook: the merge gate, in place of CI.
+# Git exports GIT_DIR to hooks; drop it so nothing below that runs `git`
+# elsewhere (build.rs reads the commit) touches this repo by accident.
+set -eu
+exec env -u GIT_DIR -u GIT_WORK_TREE -u GIT_INDEX_FILE -u GIT_PREFIX just gate

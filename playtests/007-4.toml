@@ -1,0 +1,11 @@
+task  = 7
+step  = 4
+title = "HUD and panel readable"
+loop_seconds = 600
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[ask]
+text = "Are the HUD and this question panel easy to read, and is the blue rider fully visible above the panel?"

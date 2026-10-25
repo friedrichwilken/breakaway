@@ -1,0 +1,25 @@
+task  = 20
+step  = 3
+title = "Countdowns through a 30/30 set"
+loop_seconds = 90
+# hit-30-30 at FTP 200: the first 20 x 30/30 set is steps 13-52, workout
+# time 1740-2940 s: a countdown every 30 s.
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hit-30-30.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 1740
+
+[ask]
+text = "Through a 30/30 set (a countdown every 30 s), do the numbers and beeps help rather than annoy?"

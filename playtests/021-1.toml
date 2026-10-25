@@ -1,0 +1,19 @@
+task  = 21
+step  = 1
+title = "Flat road speed"
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 100
+
+[[stage]]
+cmd = "input"
+power_w = 200
+balance_left_pct = 50
+
+[ask]
+text = "With your speed_factor, does the flat road feel fast enough?"

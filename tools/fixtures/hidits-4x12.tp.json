@@ -1,0 +1,1187 @@
+{
+  "workoutId": 100000001,
+  "athleteId": 0,
+  "title": "HIT - 4x12 min pyramids",
+  "workoutTypeValueId": 2,
+  "code": null,
+  "workoutDay": "2026-01-05T00:00:00",
+  "startTime": null,
+  "startTimePlanned": null,
+  "isItAnOr": false,
+  "isHidden": null,
+  "completed": null,
+  "description": null,
+  "userTags": null,
+  "hasPrivateWorkoutNoteForCaller": false,
+  "publicSettingValue": 0,
+  "distance": null,
+  "distancePlanned": null,
+  "distanceCustomized": null,
+  "distanceUnitsCustomized": null,
+  "totalTime": null,
+  "totalTimePlanned": null,
+  "heartRateMinimum": null,
+  "heartRateMaximum": null,
+  "heartRateAverage": null,
+  "calories": null,
+  "caloriesPlanned": null,
+  "tssActual": null,
+  "tssPlanned": null,
+  "tssSource": 0,
+  "if": null,
+  "ifPlanned": null,
+  "velocityAverage": null,
+  "velocityPlanned": null,
+  "velocityMaximum": null,
+  "normalizedSpeedActual": null,
+  "normalizedPowerActual": null,
+  "powerAverage": null,
+  "powerMaximum": null,
+  "energy": null,
+  "energyPlanned": null,
+  "elevationGain": null,
+  "elevationGainPlanned": null,
+  "elevationLoss": null,
+  "elevationMinimum": null,
+  "elevationAverage": null,
+  "elevationMaximum": null,
+  "torqueAverage": null,
+  "torqueMaximum": null,
+  "tempMin": null,
+  "tempAvg": null,
+  "tempMax": null,
+  "cadenceAverage": null,
+  "cadenceMaximum": null,
+  "lastModifiedDate": null,
+  "equipmentBikeId": null,
+  "equipmentShoeId": null,
+  "isLocked": null,
+  "complianceDurationPercent": null,
+  "complianceDistancePercent": null,
+  "complianceTssPercent": null,
+  "rpe": null,
+  "feeling": null,
+  "structure": {
+    "structure": [
+      {
+        "type": "repetition",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Easy spin",
+            "length": {
+              "value": 300,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 35,
+                "maxValue": 45
+              }
+            ],
+            "intensityClass": "warmUp",
+            "openDuration": false
+          },
+          {
+            "name": "Endurance",
+            "length": {
+              "value": 900,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 55,
+                "maxValue": 65
+              }
+            ],
+            "intensityClass": "warmUp",
+            "openDuration": false
+          }
+        ],
+        "begin": 0,
+        "end": 1200
+      },
+      {
+        "type": "rampUp",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Build",
+            "length": {
+              "value": 100,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 70,
+                "maxValue": 80
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Build",
+            "length": {
+              "value": 80,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 82,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Build",
+            "length": {
+              "value": 45,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 92,
+                "maxValue": 100
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          }
+        ],
+        "begin": 1200,
+        "end": 1425
+      },
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Recovery",
+            "length": {
+              "value": 135,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 42,
+                "maxValue": 50
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": false
+          }
+        ],
+        "begin": 1425,
+        "end": 1560
+      },
+      {
+        "type": "repetition",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "type": "step",
+            "name": "Press lap to go",
+            "length": {
+              "unit": "second",
+              "value": 1
+            },
+            "targets": [
+              {
+                "minValue": 0,
+                "maxValue": 100
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": true
+          }
+        ]
+      },
+      {
+        "type": "repetition",
+        "length": {
+          "value": 3,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "type": "step",
+            "name": "Hard",
+            "length": {
+              "value": 30,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 120,
+                "maxValue": 135
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "type": "step",
+            "name": "Easy",
+            "length": {
+              "value": 30,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 42,
+                "maxValue": 50
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": false
+          }
+        ],
+        "begin": 1560,
+        "end": 1740
+      },
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Recovery",
+            "length": {
+              "value": 210,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 42,
+                "maxValue": 50
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": false
+          }
+        ],
+        "begin": 1740,
+        "end": 1950
+      },
+      {
+        "type": "repetition",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "type": "step",
+            "name": "Press lap to go",
+            "length": {
+              "unit": "second",
+              "value": 1
+            },
+            "targets": [
+              {
+                "minValue": 0,
+                "maxValue": 100
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": true
+          }
+        ]
+      },
+      {
+        "type": "rampUp",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Hard",
+            "length": {
+              "value": 180,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 60,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 150,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 40,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 90,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 20,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 60,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 45,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 30,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          }
+        ],
+        "begin": 1950,
+        "end": 2670
+      },
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Recovery",
+            "length": {
+              "value": 210,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 42,
+                "maxValue": 50
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": false
+          }
+        ],
+        "begin": 2670,
+        "end": 2880
+      },
+      {
+        "type": "rampUp",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Hard",
+            "length": {
+              "value": 180,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 60,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 150,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 40,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 90,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 20,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 60,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 45,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 30,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          }
+        ],
+        "begin": 2880,
+        "end": 3600
+      },
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Recovery",
+            "length": {
+              "value": 210,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 42,
+                "maxValue": 50
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": false
+          }
+        ],
+        "begin": 3600,
+        "end": 3810
+      },
+      {
+        "type": "rampUp",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Hard",
+            "length": {
+              "value": 180,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 60,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 150,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 40,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 90,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 20,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 60,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 45,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 30,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          }
+        ],
+        "begin": 3810,
+        "end": 4530
+      },
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Recovery",
+            "length": {
+              "value": 210,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 42,
+                "maxValue": 50
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": false
+          }
+        ],
+        "begin": 4530,
+        "end": 4740
+      },
+      {
+        "type": "rampUp",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Hard",
+            "length": {
+              "value": 180,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 60,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 150,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 40,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 90,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 20,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 60,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 45,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Hard",
+            "length": {
+              "value": 30,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 115,
+                "maxValue": 122
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "Float",
+            "length": {
+              "value": 15,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 86,
+                "maxValue": 92
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          }
+        ],
+        "begin": 4740,
+        "end": 5460
+      },
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Cool down",
+            "length": {
+              "value": 1740,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 35,
+                "maxValue": 50
+              }
+            ],
+            "intensityClass": "coolDown",
+            "openDuration": false
+          }
+        ],
+        "begin": 5460,
+        "end": 7200
+      }
+    ],
+    "primaryLengthMetric": "duration",
+    "primaryIntensityMetric": "percentOfFtp",
+    "primaryIntensityTargetOrRange": "range"
+  },
+  "orderOnDay": 1,
+  "personalRecordCount": 0,
+  "syncedTo": null,
+  "poolLengthOptionId": null,
+  "workoutSubTypeId": null,
+  "workoutDeviceSource": null
+}

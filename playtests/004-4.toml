@@ -1,0 +1,14 @@
+task  = 4
+step  = 4
+title = "Descent"
+
+[[stage]]
+cmd = "set_profile"
+name = "hills"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 800
+
+[ask]
+text = "Does this read as riding downhill, and clearly faster than the flat?"

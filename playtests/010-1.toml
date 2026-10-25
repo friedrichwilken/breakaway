@@ -1,0 +1,27 @@
+task  = 10
+step  = 1
+title = "Effort begins on a climb"
+loop_seconds = 60
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/mit-sweetspot-6x5.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 1185
+
+[[stage]]
+cmd = "set_speed"
+multiplier = 8
+
+[ask]
+text = "Does the road start to climb when the effort begins, and ease off when it ends?"

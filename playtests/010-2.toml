@@ -1,0 +1,58 @@
+task  = 10
+step  = 2
+title = "30/30s as ramps and ledges"
+loop_seconds = 120
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hit-30-30.json"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[ask]
+text = "Does each 30-second effort feel like a ramp and each recovery like a ledge on the climb?"

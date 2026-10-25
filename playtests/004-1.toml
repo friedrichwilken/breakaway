@@ -1,0 +1,14 @@
+task  = 4
+step  = 1
+title = "Steady climb"
+
+[[stage]]
+cmd = "set_profile"
+name = "hills"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 300
+
+[ask]
+text = "Does this read as riding uphill?"

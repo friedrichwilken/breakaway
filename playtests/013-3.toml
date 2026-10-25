@@ -1,0 +1,21 @@
+task  = 13
+step  = 3
+title = "Marco's voice"
+# Free ride: Marco says `draft_start`, `back_on_wheel` and `under_band`
+# (the radio plays them by priority: draft_start, under_band,
+# back_on_wheel). Said again on every re-stage.
+
+[[stage]]
+cmd = "radio_say"
+key = "draft_start"
+
+[[stage]]
+cmd = "radio_say"
+key = "back_on_wheel"
+
+[[stage]]
+cmd = "radio_say"
+key = "under_band"
+
+[ask]
+text = "Does Marco sound like a different person from the DS, and is he understandable?"

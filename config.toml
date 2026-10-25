@@ -1,0 +1,17 @@
+# Breakaway tuning. Hand-edited; read once at start (restart the game after
+# a change). The game never writes this file. A bad value or an unknown key
+# makes the game exit with code 2 and say why.
+
+# Multiplies the scripted world speed (10 m/s on the flat), in free ride and
+# in workouts. A workout's steps still take exactly their time; the course
+# just gets longer or shorter. Range 0.5 to 2.0.
+# Note: task 014's scenery may change how fast the same speed feels, so
+# retune this after it.
+speed_factor = 1.0
+
+# Metres of lateral offset per percentage point of pedal balance away from
+# 50 %. The road half width (3.0 m) still clamps it. Range 0.05 to 0.5.
+lateral_m_per_pct = 0.25
+
+# Height in pixels of the workout strip across the top. Range 16 to 120.
+workout_strip_px = 48

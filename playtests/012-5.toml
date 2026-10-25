@@ -1,0 +1,28 @@
+task  = 12
+step  = 5
+title = "Portraits and dialogue box"
+# hit-30-30 at FTP 200, at the start: the DS says the break stayed
+# away, then that it was caught (said again on every re-stage).
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hit-30-30.json"
+
+[[stage]]
+cmd = "radio_say"
+key = "break_survived"
+
+[[stage]]
+cmd = "radio_say"
+key = "caught"
+
+[ask]
+text = "Are the placeholder portraits and the dialogue box acceptable as a starting point?"

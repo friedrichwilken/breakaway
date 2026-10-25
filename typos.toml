@@ -1,0 +1,9 @@
+[files]
+# Voice clip hashes and the radio clips themselves.
+extend-exclude = ["assets/radio/audio/", "playtests/results.ndjson"]
+
+[default.extend-words]
+# A deliberately misspelt key in the tuning file's unknown-key test.
+speeed = "speeed"
+# A right-hander is a bend.
+hander = "hander"

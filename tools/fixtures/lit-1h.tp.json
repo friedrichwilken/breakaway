@@ -1,0 +1,134 @@
+{
+  "workoutId": 100000004,
+  "athleteId": 0,
+  "title": "Endurance - 1 h easy",
+  "workoutTypeValueId": 2,
+  "code": null,
+  "workoutDay": "2026-01-08T00:00:00",
+  "startTime": null,
+  "startTimePlanned": null,
+  "isItAnOr": false,
+  "isHidden": null,
+  "completed": null,
+  "description": null,
+  "userTags": null,
+  "hasPrivateWorkoutNoteForCaller": false,
+  "publicSettingValue": 0,
+  "distance": null,
+  "distancePlanned": null,
+  "distanceCustomized": null,
+  "distanceUnitsCustomized": null,
+  "totalTime": null,
+  "totalTimePlanned": null,
+  "heartRateMinimum": null,
+  "heartRateMaximum": null,
+  "heartRateAverage": null,
+  "calories": null,
+  "caloriesPlanned": null,
+  "tssActual": null,
+  "tssPlanned": null,
+  "tssSource": 0,
+  "if": null,
+  "ifPlanned": null,
+  "velocityAverage": null,
+  "velocityPlanned": null,
+  "velocityMaximum": null,
+  "normalizedSpeedActual": null,
+  "normalizedPowerActual": null,
+  "powerAverage": null,
+  "powerMaximum": null,
+  "energy": null,
+  "energyPlanned": null,
+  "elevationGain": null,
+  "elevationGainPlanned": null,
+  "elevationLoss": null,
+  "elevationMinimum": null,
+  "elevationAverage": null,
+  "elevationMaximum": null,
+  "torqueAverage": null,
+  "torqueMaximum": null,
+  "tempMin": null,
+  "tempAvg": null,
+  "tempMax": null,
+  "cadenceAverage": null,
+  "cadenceMaximum": null,
+  "lastModifiedDate": null,
+  "equipmentBikeId": null,
+  "equipmentShoeId": null,
+  "isLocked": null,
+  "complianceDurationPercent": null,
+  "complianceDistancePercent": null,
+  "complianceTssPercent": null,
+  "rpe": null,
+  "feeling": null,
+  "structure": {
+    "structure": [
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Warm up",
+            "length": {
+              "value": 660,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 40,
+                "maxValue": 52
+              }
+            ],
+            "intensityClass": "warmUp",
+            "openDuration": false
+          }
+        ],
+        "begin": 0,
+        "end": 660
+      },
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Steady",
+            "length": {
+              "value": 2940,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 62,
+                "maxValue": 70
+              },
+              {
+                "minValue": 88,
+                "maxValue": 98,
+                "unit": "roundOrStridePerMinute"
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          }
+        ],
+        "begin": 660,
+        "end": 3600
+      }
+    ],
+    "primaryLengthMetric": "duration",
+    "primaryIntensityMetric": "percentOfFtp",
+    "primaryIntensityTargetOrRange": "range"
+  },
+  "orderOnDay": 1,
+  "personalRecordCount": 0,
+  "syncedTo": null,
+  "poolLengthOptionId": null,
+  "workoutSubTypeId": null,
+  "workoutDeviceSource": null
+}

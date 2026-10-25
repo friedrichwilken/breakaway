@@ -1,0 +1,26 @@
+{
+  "name": "Sweet spot - 6x5 min",
+  "date": "2026-01-09",
+  "source": "trainingpeaks:100000005",
+  "steps": [
+    {"name": "Easy spin", "duration_s": 180, "low_pct": 45, "high_pct": 55, "class": "warm_up", "block": 0, "block_kind": "repetition", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Endurance", "duration_s": 420, "low_pct": 56, "high_pct": 66, "class": "warm_up", "block": 0, "block_kind": "repetition", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "", "duration_s": 90, "low_pct": 60, "high_pct": 68, "class": "active", "block": 1, "block_kind": "ramp", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "", "duration_s": 105, "low_pct": 70, "high_pct": 78, "class": "active", "block": 1, "block_kind": "ramp", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "", "duration_s": 75, "low_pct": 80, "high_pct": 88, "class": "active", "block": 1, "block_kind": "ramp", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Recovery", "duration_s": 330, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 2, "block_kind": "single", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Sweet spot", "duration_s": 300, "low_pct": 84, "high_pct": 94, "class": "active", "block": 3, "block_kind": "repetition", "rep": 1, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Easy", "duration_s": 120, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 3, "block_kind": "repetition", "rep": 1, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Sweet spot", "duration_s": 300, "low_pct": 84, "high_pct": 94, "class": "active", "block": 3, "block_kind": "repetition", "rep": 2, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Easy", "duration_s": 120, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 3, "block_kind": "repetition", "rep": 2, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Sweet spot", "duration_s": 300, "low_pct": 84, "high_pct": 94, "class": "active", "block": 3, "block_kind": "repetition", "rep": 3, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Easy", "duration_s": 120, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 3, "block_kind": "repetition", "rep": 3, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Sweet spot", "duration_s": 300, "low_pct": 84, "high_pct": 94, "class": "active", "block": 3, "block_kind": "repetition", "rep": 4, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Easy", "duration_s": 120, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 3, "block_kind": "repetition", "rep": 4, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Sweet spot", "duration_s": 300, "low_pct": 84, "high_pct": 94, "class": "active", "block": 3, "block_kind": "repetition", "rep": 5, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Easy", "duration_s": 120, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 3, "block_kind": "repetition", "rep": 5, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Sweet spot", "duration_s": 300, "low_pct": 84, "high_pct": 94, "class": "active", "block": 3, "block_kind": "repetition", "rep": 6, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Easy", "duration_s": 120, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 3, "block_kind": "repetition", "rep": 6, "reps": 6, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Cool down", "duration_s": 480, "low_pct": 35, "high_pct": 48, "class": "cool_down", "block": 4, "block_kind": "single", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false}
+  ]
+}

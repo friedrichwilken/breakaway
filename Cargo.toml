@@ -1,0 +1,26 @@
+[package]
+name = "breakaway"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy       = "0.19"
+bevy_egui  = "0.40"
+dirs       = "6"
+serde      = { version = "1", features = ["derive"] }
+serde_json = "1"
+tiny_http  = { version = "0.12", optional = true }
+tokio      = { version = "1", features = ["rt-multi-thread", "sync"] }
+toml       = "1"
+trainer-core = { path = "../libs/trainer-core" }
+
+[features]
+default = ["debug-api"]
+# Local JSON debug API on 127.0.0.1:7880 (see CLAUDE.md).
+debug-api = ["dep:tiny_http"]
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3

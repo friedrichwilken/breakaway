@@ -1,0 +1,15 @@
+task  = 5
+step  = 3
+title = "Hairpin on the kicker"
+# Hairpin 1500-1650 m: reached after ~4 s, ridden slowly (2.9 m/s) for the rest of the loop.
+
+[[stage]]
+cmd = "set_profile"
+name = "demo"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 1470
+
+[ask]
+text = "Does the hairpin on the steep climb look right, including the inside edge of the bend?"

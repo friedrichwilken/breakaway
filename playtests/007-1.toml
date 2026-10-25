@@ -1,0 +1,11 @@
+task  = 7
+step  = 1
+title = "Trainer power and cadence"
+loop_seconds = 600
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[ask]
+text = "Press D, scan and connect your trainer. Do POWER and CAD on screen follow your legs within about a second?"

@@ -1,0 +1,11 @@
+task  = 7
+step  = 5
+title = "Devices reconnect"
+loop_seconds = 600
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[ask]
+text = "Quit and start the game again (not in playtest mode): did your devices reconnect on their own? Answer here on the next run."

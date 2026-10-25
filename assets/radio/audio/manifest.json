@@ -1,0 +1,352 @@
+{
+  "clips": {
+    "back_on_wheel-1.ogg": {
+      "hash": "8dc3e5bb580ad1f6",
+      "duration_s": 0.957
+    },
+    "back_on_wheel-2.ogg": {
+      "hash": "002d1daba740f443",
+      "duration_s": 1.264
+    },
+    "back_on_wheel-3.ogg": {
+      "hash": "5493f99663595e84",
+      "duration_s": 1.219
+    },
+    "block_done-1.ogg": {
+      "hash": "bc07239e6ef7d462",
+      "duration_s": 2.28
+    },
+    "block_done-2.ogg": {
+      "hash": "71e3a00a8f6927c7",
+      "duration_s": 1.728
+    },
+    "block_done-3.ogg": {
+      "hash": "4bece3c44fa0c879",
+      "duration_s": 2.216
+    },
+    "break_start-1.ogg": {
+      "hash": "53bbe13959e0ddf4",
+      "duration_s": 2.963
+    },
+    "break_start-2.ogg": {
+      "hash": "4e6d8a3d7ce09fe6",
+      "duration_s": 2.251
+    },
+    "break_start-3.ogg": {
+      "hash": "fb9a8ac56c2f2877",
+      "duration_s": 2.909
+    },
+    "break_survived-1.ogg": {
+      "hash": "ea586cb2bdd4887c",
+      "duration_s": 1.499
+    },
+    "break_survived-2.ogg": {
+      "hash": "168425b9694efa3f",
+      "duration_s": 2.04
+    },
+    "break_survived-3.ogg": {
+      "hash": "4c3a123f9f9f12db",
+      "duration_s": 1.341
+    },
+    "bunch_closing-1.ogg": {
+      "hash": "56a26ced57e9c5cc",
+      "duration_s": 2.565
+    },
+    "bunch_closing-2.ogg": {
+      "hash": "93e84078a6b3c35f",
+      "duration_s": 2.107
+    },
+    "bunch_closing-3.ogg": {
+      "hash": "25438a8308b9b76d",
+      "duration_s": 3.448
+    },
+    "caught-1.ogg": {
+      "hash": "dc706228d353fa9f",
+      "duration_s": 3.163
+    },
+    "caught-2.ogg": {
+      "hash": "a1c98d83d905da3e",
+      "duration_s": 3.115
+    },
+    "caught-3.ogg": {
+      "hash": "4bec1a38e8a58534",
+      "duration_s": 3.163
+    },
+    "draft_start-1.ogg": {
+      "hash": "461ce3182227ab36",
+      "duration_s": 1.181
+    },
+    "draft_start-2.ogg": {
+      "hash": "8e34e7b7ba4f875e",
+      "duration_s": 1.712
+    },
+    "draft_start-3.ogg": {
+      "hash": "82727329a8e7067e",
+      "duration_s": 1.203
+    },
+    "dropped-1.ogg": {
+      "hash": "f502ee301464510a",
+      "duration_s": 1.923
+    },
+    "dropped-2.ogg": {
+      "hash": "d4fb58e13395a888",
+      "duration_s": 1.699
+    },
+    "dropped-3.ogg": {
+      "hash": "620895db75fad68d",
+      "duration_s": 2.069
+    },
+    "halfway-1.ogg": {
+      "hash": "8609d83eb5ed1887",
+      "duration_s": 2.379
+    },
+    "halfway-2.ogg": {
+      "hash": "91bc408a543b40bd",
+      "duration_s": 1.576
+    },
+    "halfway-3.ogg": {
+      "hash": "4a9fa4e32cdd9907",
+      "duration_s": 2.24
+    },
+    "in_band_streak-1.ogg": {
+      "hash": "a7f1ae2967c2b7fc",
+      "duration_s": 1.949
+    },
+    "in_band_streak-2.ogg": {
+      "hash": "346022ca7c6d130d",
+      "duration_s": 2.059
+    },
+    "in_band_streak-3.ogg": {
+      "hash": "2daed65dfa8f2aab",
+      "duration_s": 2.027
+    },
+    "last_rep-1.ogg": {
+      "hash": "ad682de888571706",
+      "duration_s": 2.541
+    },
+    "last_rep-2.ogg": {
+      "hash": "e2982c6a459cfc05",
+      "duration_s": 1.72
+    },
+    "last_rep-3.ogg": {
+      "hash": "8b3af253c88b6fdb",
+      "duration_s": 1.869
+    },
+    "match_burned-1-m1.ogg": {
+      "hash": "b0d0b9ee782c7490",
+      "duration_s": 2.011
+    },
+    "match_burned-1-m2.ogg": {
+      "hash": "e37e448ac35a8149",
+      "duration_s": 1.987
+    },
+    "match_burned-1-m3.ogg": {
+      "hash": "63914d26c504b812",
+      "duration_s": 2.035
+    },
+    "match_burned-1-m4.ogg": {
+      "hash": "d59e31aa1b0e508e",
+      "duration_s": 1.997
+    },
+    "match_burned-2-m1.ogg": {
+      "hash": "dfcc7e75ea977da6",
+      "duration_s": 2.368
+    },
+    "match_burned-2-m2.ogg": {
+      "hash": "5fe98f4d2f070108",
+      "duration_s": 2.352
+    },
+    "match_burned-2-m3.ogg": {
+      "hash": "9004c279c04dbae4",
+      "duration_s": 2.379
+    },
+    "match_burned-2-m4.ogg": {
+      "hash": "2020a7244e20e38d",
+      "duration_s": 2.376
+    },
+    "match_burned-3-m1.ogg": {
+      "hash": "fe9143cce37fe170",
+      "duration_s": 2.525
+    },
+    "match_burned-3-m2.ogg": {
+      "hash": "fb0855c05f386782",
+      "duration_s": 2.515
+    },
+    "match_burned-3-m3.ogg": {
+      "hash": "a44709a29c2e0ac9",
+      "duration_s": 2.565
+    },
+    "match_burned-3-m4.ogg": {
+      "hash": "0f4de33f37c75b7c",
+      "duration_s": 2.517
+    },
+    "out_of_matches-1.ogg": {
+      "hash": "6d6cb04d40e0b1fd",
+      "duration_s": 2.891
+    },
+    "out_of_matches-2.ogg": {
+      "hash": "e79763eaea0707bf",
+      "duration_s": 2.397
+    },
+    "out_of_matches-3.ogg": {
+      "hash": "5b4cdb8b478d4fa1",
+      "duration_s": 2.477
+    },
+    "over_band-1.ogg": {
+      "hash": "4edf89a43949522e",
+      "duration_s": 2.771
+    },
+    "over_band-2.ogg": {
+      "hash": "9e2ccb09e2b5f203",
+      "duration_s": 2.451
+    },
+    "over_band-3.ogg": {
+      "hash": "a08135d8f425872b",
+      "duration_s": 2.288
+    },
+    "pull_start-1.ogg": {
+      "hash": "861db6e34fc7b148",
+      "duration_s": 1.016
+    },
+    "pull_start-2.ogg": {
+      "hash": "8e73df56098543ed",
+      "duration_s": 1.528
+    },
+    "pull_start-3.ogg": {
+      "hash": "f6be48b232ffc83e",
+      "duration_s": 1.491
+    },
+    "step_warning_draft-1-s10.ogg": {
+      "hash": "c6ff95f7692cfa7b",
+      "duration_s": 1.467
+    },
+    "step_warning_draft-1-s5.ogg": {
+      "hash": "33048a0b216d9625",
+      "duration_s": 1.549
+    },
+    "step_warning_draft-2-s10.ogg": {
+      "hash": "ce6f946442659b54",
+      "duration_s": 1.88
+    },
+    "step_warning_draft-2-s5.ogg": {
+      "hash": "1f1f392e2a97cc56",
+      "duration_s": 1.901
+    },
+    "step_warning_draft-3-s10.ogg": {
+      "hash": "4b068b17b7b095f4",
+      "duration_s": 1.819
+    },
+    "step_warning_draft-3-s5.ogg": {
+      "hash": "95b2775fed7c3cb9",
+      "duration_s": 1.893
+    },
+    "step_warning_easier-1-s10.ogg": {
+      "hash": "00fe259334873b15",
+      "duration_s": 1.421
+    },
+    "step_warning_easier-1-s5.ogg": {
+      "hash": "aa6ebf086aa64631",
+      "duration_s": 1.379
+    },
+    "step_warning_easier-2-s10.ogg": {
+      "hash": "d8079f76c2c07ca4",
+      "duration_s": 1.981
+    },
+    "step_warning_easier-2-s5.ogg": {
+      "hash": "adb9d55d69feecb0",
+      "duration_s": 1.981
+    },
+    "step_warning_easier-3-s10.ogg": {
+      "hash": "902dd1d52d7755e1",
+      "duration_s": 2.483
+    },
+    "step_warning_easier-3-s5.ogg": {
+      "hash": "ff95ba767d4b473e",
+      "duration_s": 2.573
+    },
+    "step_warning_harder-1-s10.ogg": {
+      "hash": "51372c4b278e92df",
+      "duration_s": 2.16
+    },
+    "step_warning_harder-1-s5.ogg": {
+      "hash": "cc87a25080512f14",
+      "duration_s": 2.136
+    },
+    "step_warning_harder-2-s10.ogg": {
+      "hash": "86b40c4f2ca73080",
+      "duration_s": 2.803
+    },
+    "step_warning_harder-2-s5.ogg": {
+      "hash": "0d3a9c2ec4589127",
+      "duration_s": 2.888
+    },
+    "step_warning_harder-3-s10.ogg": {
+      "hash": "988f83f15a42edce",
+      "duration_s": 2.621
+    },
+    "step_warning_harder-3-s5.ogg": {
+      "hash": "ba29d4f53b6aa545",
+      "duration_s": 2.6
+    },
+    "step_warning_pull-1-s10.ogg": {
+      "hash": "ee8ae5c3a910952b",
+      "duration_s": 1.749
+    },
+    "step_warning_pull-1-s5.ogg": {
+      "hash": "be447e95b1643a3d",
+      "duration_s": 1.821
+    },
+    "step_warning_pull-2-s10.ogg": {
+      "hash": "b76aeb7e3997dca1",
+      "duration_s": 1.643
+    },
+    "step_warning_pull-2-s5.ogg": {
+      "hash": "36dd2d8af9877b9e",
+      "duration_s": 1.667
+    },
+    "step_warning_pull-3-s10.ogg": {
+      "hash": "ef30fb782c38d351",
+      "duration_s": 1.467
+    },
+    "step_warning_pull-3-s5.ogg": {
+      "hash": "f2861a5e535c9739",
+      "duration_s": 1.456
+    },
+    "under_band-1.ogg": {
+      "hash": "39471eb4c2fda992",
+      "duration_s": 1.621
+    },
+    "under_band-2.ogg": {
+      "hash": "ec9b5081cba9d2f6",
+      "duration_s": 1.781
+    },
+    "under_band-3.ogg": {
+      "hash": "deac993ca3bd68b3",
+      "duration_s": 1.691
+    },
+    "workout_done-1.ogg": {
+      "hash": "bbf9b16d69eb317f",
+      "duration_s": 2.211
+    },
+    "workout_done-2.ogg": {
+      "hash": "f97867874e07bd29",
+      "duration_s": 2.099
+    },
+    "workout_done-3.ogg": {
+      "hash": "434a312b4d05341e",
+      "duration_s": 1.835
+    },
+    "workout_start-1.ogg": {
+      "hash": "328c0026fc86a0c5",
+      "duration_s": 3.203
+    },
+    "workout_start-2.ogg": {
+      "hash": "fed78c226ec40672",
+      "duration_s": 2.771
+    },
+    "workout_start-3.ogg": {
+      "hash": "cf46525c0a025476",
+      "duration_s": 2.696
+    }
+  }
+}

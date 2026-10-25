@@ -1,0 +1,247 @@
+# Team radio lines (src/radio.rs). One [[line]] per key; speaker `ds` or
+# `partner`; at least two variants. Placeholders: {secs}, {low}, {high},
+# {rep}, {reps}, {advantage}, {matches}. No line may tell the rider to
+# exceed the band.
+#
+# Optional `spoken`: what the voice clip says, one per `text` variant (same
+# length); without it the clip says `text`. Spoken text may only use {secs}
+# (10, 5) and {matches} (1-4). Clips are generated files: after editing a
+# line run `just voices` (assets/radio/voices.toml picks the voices).
+
+[[line]]
+key = "step_warning_pull"
+speaker = "partner"
+text = [
+  "Your turn in {secs}. Come through smooth.",
+  "{secs} seconds, then you're on the front.",
+  "Get ready, your pull in {secs}.",
+]
+
+[[line]]
+key = "step_warning_draft"
+speaker = "partner"
+text = [
+  "{secs} more, then I come through.",
+  "Hold it {secs} seconds, then swing off.",
+  "Nearly there. {secs}, then get on my wheel.",
+]
+
+[[line]]
+key = "step_warning_harder"
+speaker = "ds"
+text = [
+  "Heads up: {low} to {high} watts in {secs} seconds.",
+  "It kicks up in {secs}. Target {low} to {high} watts.",
+  "Effort coming in {secs}. Settle at {low} to {high} watts, no more.",
+]
+spoken = [
+  "Heads up. Effort in {secs} seconds.",
+  "It kicks up in {secs}. Hit your target, no more.",
+  "Effort coming in {secs}. Settle at target.",
+]
+
+[[line]]
+key = "step_warning_easier"
+speaker = "ds"
+text = [
+  "Ease off in {secs}. Down to {low} to {high}.",
+  "{secs} seconds, then recover at {low} to {high}.",
+  "Almost done with this one. {secs} to go, then {low} to {high}.",
+]
+spoken = [
+  "Ease off in {secs}.",
+  "{secs} seconds, then recover.",
+  "Almost done with this one. {secs} to go.",
+]
+
+[[line]]
+key = "workout_start"
+speaker = "ds"
+text = [
+  "Radio check. Nice and steady today, ride the plan.",
+  "Here we go. Stay in your zones and we'll be fine.",
+  "All right, let's go. The plan is the plan.",
+]
+
+[[line]]
+key = "break_start"
+speaker = "ds"
+text = [
+  "That's the move! Two of you up the road. Work together.",
+  "You're away! Share the work, keep it smooth.",
+  "Gap's open. Twenty seconds. Take your turns.",
+]
+
+[[line]]
+key = "pull_start"
+speaker = "partner"
+text = [
+  "You're on. {low} to {high}, steady.",
+  "Your pull. Keep it at {low} to {high}.",
+  "Take it. Smooth, don't surge.",
+]
+spoken = [
+  "You're on. Steady.",
+  "Your pull. Keep it on target.",
+  "Take it. Smooth, don't surge.",
+]
+
+[[line]]
+key = "draft_start"
+speaker = "partner"
+text = [
+  "I've got it. Sit in.",
+  "My turn. Get on the wheel and breathe.",
+  "Tuck in behind me.",
+]
+
+[[line]]
+key = "last_rep"
+speaker = "ds"
+text = [
+  "Last one of this set. Same as the first.",
+  "Final rep, {rep} of {reps}. Keep the shape.",
+  "One more. Don't change anything.",
+]
+spoken = [
+  "Last one of this set. Same as the first.",
+  "Final rep. Keep the shape.",
+  "One more. Don't change anything.",
+]
+
+[[line]]
+key = "block_done"
+speaker = "ds"
+text = [
+  "Set done. Good work, spin the legs.",
+  "That's the block. Easy now.",
+  "Done. Recover properly, it counts.",
+]
+
+[[line]]
+key = "bunch_closing"
+speaker = "ds"
+text = [
+  "Gap is down to {advantage}. Back up to your watts.",
+  "They're closing, {advantage}. Get back in the zone.",
+  "Bunch at {advantage}. You're under, bring it back up to target.",
+]
+spoken = [
+  "Gap is coming down. Back up to your watts.",
+  "They're closing. Get back in the zone.",
+  "The bunch is coming. You're under, bring it back up to target.",
+]
+
+[[line]]
+key = "caught"
+speaker = "ds"
+text = [
+  "They've got you. Sit in the bunch, we go again next set.",
+  "Caught. No drama. Recover in the wheels and reset.",
+  "That one's over. Stay with them, the plan carries on.",
+]
+
+[[line]]
+key = "break_survived"
+speaker = "ds"
+text = [
+  "They're not seeing you again! {advantage} at the line.",
+  "The break stays away, {advantage}. Textbook.",
+  "That's how you do it. {advantage} in hand.",
+]
+spoken = [
+  "They're not seeing you again!",
+  "The break stays away. Textbook.",
+  "That's how you do it.",
+]
+
+[[line]]
+key = "under_band"
+speaker = "partner"
+text = [
+  "You're slipping. Back up to {low}.",
+  "Bit more, up to {low}. Hold it there.",
+  "Don't let it drop. {low} and hold.",
+]
+spoken = [
+  "You're slipping. Back up to target.",
+  "Bit more, up to target. Hold it there.",
+  "Don't let it drop. Hold your target.",
+]
+
+[[line]]
+key = "over_band"
+speaker = "ds"
+text = [
+  "Easy! Back under {high}. Save your matches.",
+  "Too hot. Down to {high}, that's the plan.",
+  "No heroics. {high} is the ceiling.",
+]
+spoken = [
+  "Easy! Back under the ceiling. Save your matches.",
+  "Too hot. Bring it down, that's the plan.",
+  "No heroics. Stay under the ceiling.",
+]
+
+[[line]]
+key = "match_burned"
+speaker = "ds"
+text = [
+  "That's a match gone. {matches} left.",
+  "Burned one. {matches} left, bring it down.",
+  "Match gone, {matches} left. Back in the zone.",
+]
+
+[[line]]
+key = "out_of_matches"
+speaker = "ds"
+text = [
+  "No matches left. Every surge costs you now.",
+  "That was the last match. Ride the numbers.",
+  "Box is empty. Stay under the ceiling.",
+]
+
+[[line]]
+key = "back_on_wheel"
+speaker = "partner"
+text = [
+  "There you are. Good.",
+  "Back on. Nicely done.",
+  "On the wheel. Stay there.",
+]
+
+[[line]]
+key = "dropped"
+speaker = "partner"
+text = [
+  "I'll wait up the road. Come back at your watts.",
+  "Lost you. Ride your zone, I'll ease.",
+  "Gap's big. Steady at target and you'll close it.",
+]
+
+[[line]]
+key = "in_band_streak"
+speaker = "ds"
+text = [
+  "Lovely riding. Just like that.",
+  "Right in the zone. Keep it boring.",
+  "That's perfect. Don't touch a thing.",
+]
+
+[[line]]
+key = "halfway"
+speaker = "ds"
+text = [
+  "Halfway. Eat something, drink something.",
+  "Half done. Take a drink.",
+  "That's half. Fuel up and keep going.",
+]
+
+[[line]]
+key = "workout_done"
+speaker = "ds"
+text = [
+  "That's the workout. Proud of that one.",
+  "Done. Great job today, spin it out.",
+  "Finished. That's money in the bank.",
+]

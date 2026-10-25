@@ -1,0 +1,15 @@
+task  = 4
+step  = 3
+title = "Over the crest"
+# Crest at 600 m (reached after ~10 s), then the flat top to the descent edge at 700 m.
+
+[[stage]]
+cmd = "set_profile"
+name = "hills"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 560
+
+[ask]
+text = "Does the road disappear over the crest and come back into view as you ride over it?"

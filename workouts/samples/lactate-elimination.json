@@ -1,0 +1,24 @@
+{
+  "name": "Lactate clearance - surges into tempo",
+  "date": "2026-01-07",
+  "source": "trainingpeaks:100000003",
+  "steps": [
+    {"name": "Easy spin", "duration_s": 240, "low_pct": 45, "high_pct": 55, "class": "warm_up", "block": 0, "block_kind": "repetition", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Endurance", "duration_s": 1320, "low_pct": 55, "high_pct": 65, "class": "warm_up", "block": 0, "block_kind": "repetition", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Build", "duration_s": 150, "low_pct": 70, "high_pct": 80, "class": "active", "block": 1, "block_kind": "ramp", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Build", "duration_s": 90, "low_pct": 82, "high_pct": 92, "class": "active", "block": 1, "block_kind": "ramp", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Recovery", "duration_s": 420, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 2, "block_kind": "single", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Surge", "duration_s": 150, "low_pct": 118, "high_pct": 125, "class": "active", "block": 3, "block_kind": "repetition", "rep": 1, "reps": 1, "cadence_low": 95, "cadence_high": 105, "fixed_rest": false},
+    {"name": "Tempo hold", "duration_s": 900, "low_pct": 78, "high_pct": 84, "class": "active", "block": 3, "block_kind": "repetition", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Easy", "duration_s": 240, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 3, "block_kind": "repetition", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Endurance", "duration_s": 1800, "low_pct": 60, "high_pct": 68, "class": "active", "block": 4, "block_kind": "single", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Surge", "duration_s": 75, "low_pct": 118, "high_pct": 125, "class": "active", "block": 5, "block_kind": "repetition", "rep": 1, "reps": 2, "cadence_low": 95, "cadence_high": 105, "fixed_rest": false},
+    {"name": "Tempo hold", "duration_s": 600, "low_pct": 78, "high_pct": 84, "class": "active", "block": 5, "block_kind": "repetition", "rep": 1, "reps": 2, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Easy", "duration_s": 240, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 5, "block_kind": "repetition", "rep": 1, "reps": 2, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Surge", "duration_s": 75, "low_pct": 118, "high_pct": 125, "class": "active", "block": 5, "block_kind": "repetition", "rep": 2, "reps": 2, "cadence_low": 95, "cadence_high": 105, "fixed_rest": false},
+    {"name": "Tempo hold", "duration_s": 600, "low_pct": 78, "high_pct": 84, "class": "active", "block": 5, "block_kind": "repetition", "rep": 2, "reps": 2, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Easy", "duration_s": 240, "low_pct": 45, "high_pct": 55, "class": "rest", "block": 5, "block_kind": "repetition", "rep": 2, "reps": 2, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Endurance", "duration_s": 2700, "low_pct": 60, "high_pct": 68, "class": "active", "block": 6, "block_kind": "single", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false},
+    {"name": "Cool down", "duration_s": 600, "low_pct": 35, "high_pct": 48, "class": "cool_down", "block": 7, "block_kind": "single", "rep": 1, "reps": 1, "cadence_low": null, "cadence_high": null, "fixed_rest": false}
+  ]
+}

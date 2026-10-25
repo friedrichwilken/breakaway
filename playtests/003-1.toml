@@ -1,0 +1,14 @@
+task  = 3
+step  = 1
+title = "Straight flat road"
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 100
+
+[ask]
+text = "Does it feel like riding forward on a straight road at a steady speed?"

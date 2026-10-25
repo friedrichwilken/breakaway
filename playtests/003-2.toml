@@ -1,0 +1,19 @@
+task  = 3
+step  = 2
+title = "Balance left"
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 100
+
+[[stage]]
+cmd = "input"
+power_w = 200
+balance_left_pct = 40
+
+[ask]
+text = "Is the blue rider at the left edge of the road, clearly left of the red rider?"

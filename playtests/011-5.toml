@@ -1,0 +1,30 @@
+task  = 11
+step  = 5
+title = "Riding the partner off your wheel"
+loop_seconds = 60
+# hit-30-30 at FTP 200: the first 20 x 30/30 set is steps 13-52, workout
+# time 1740-2940 s (pulls start at 1740, 1800, ...; drafts at 1770, 1830, ...).
+# 1860 s: 2 min into the set, the start of the third pull (step 17).
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hit-30-30.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 1860
+
+[[stage]]
+cmd = "autopilot_bias"
+pct = 25
+
+[ask]
+text = "On your pull, does it read that you are riding your partner off your wheel and burning matches for nothing?"

@@ -1,0 +1,26 @@
+task  = 11
+step  = 1
+title = "Pull and draft roles"
+loop_seconds = 120
+# hit-30-30 at FTP 200: the first 20 x 30/30 set is steps 13-52, workout
+# time 1740-2940 s (pulls start at 1740, 1800, ...; drafts at 1770, 1830, ...).
+# 1730 s: 10 s before the set's first pull (step 12, recovery).
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hit-30-30.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 1730
+
+[ask]
+text = "Is it clear when it is your turn to pull and when to sit on the wheel, without reading small text?"

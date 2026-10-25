@@ -1,0 +1,11 @@
+task  = 7
+step  = 2
+title = "Pedal balance moves the rider"
+loop_seconds = 600
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[ask]
+text = "With the power-meter pedals connected: does the blue rider move sideways when you push harder with one leg?"

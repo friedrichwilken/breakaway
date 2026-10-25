@@ -1,0 +1,6 @@
+#!/bin/sh
+# Git-native pre-commit hook (`just setup` points `core.hooksPath` here):
+# the fast checks, formatting and spelling, refused before every commit.
+# The full gate (`just gate`) runs on push.
+set -eu
+exec just lint

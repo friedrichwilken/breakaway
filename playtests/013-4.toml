@@ -1,0 +1,30 @@
+task  = 13
+step  = 4
+title = "Amount and loudness of talking"
+loop_seconds = 60
+# hit-30-30 at FTP 200: the first 20 x 30/30 set is steps 13-52, workout
+# time 1740-2940 s. 1860 s: 2 min into the set (step 17, a pull), riding
+# 25 % over the band (over-band and match calls).
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hit-30-30.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 1860
+
+[[stage]]
+cmd = "autopilot_bias"
+pct = 25
+
+[ask]
+text = "Is the amount and loudness of talking comfortable against your own music or fan noise?"

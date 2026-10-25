@@ -1,0 +1,21 @@
+task  = 8
+step  = 3
+title = "Over the band"
+loop_seconds = 30
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[[stage]]
+cmd = "set_band"
+low_w = 180
+high_w = 220
+
+[[stage]]
+cmd = "input"
+power_w = 260
+balance_left_pct = 50
+
+[ask]
+text = "Is it obvious that you are over the band, and do you notice each match burning?"

@@ -1,0 +1,11 @@
+task  = 7
+step  = 3
+title = "Heart rate"
+loop_seconds = 600
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[ask]
+text = "With the HR strap connected: does HR on screen match your watch or head unit?"

@@ -1,0 +1,22 @@
+task  = 9
+step  = 1
+title = "Workout display"
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/mit-sweetspot-6x5.json"
+
+[ask]
+text = "Is it clear at a glance which step you are in, how long it lasts and what comes next?"

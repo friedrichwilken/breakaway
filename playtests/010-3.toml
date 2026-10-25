@@ -1,0 +1,26 @@
+task  = 10
+step  = 3
+title = "Long easy ride"
+loop_seconds = 60
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/lit-1h.json"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "set_speed"
+multiplier = 6
+
+[ask]
+text = "Is the long easy ride varied enough (gentle bends and rolls) without being distracting?"

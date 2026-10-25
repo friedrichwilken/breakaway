@@ -1,0 +1,41 @@
+task  = 9
+step  = 3
+title = "30/30 on/off"
+loop_seconds = 60
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hit-30-30.json"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[ask]
+text = "Can you follow 30-second on/off changes from the display alone?"

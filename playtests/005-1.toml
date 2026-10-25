@@ -1,0 +1,14 @@
+task  = 5
+step  = 1
+title = "Right bend on the climb"
+
+[[stage]]
+cmd = "set_profile"
+name = "demo"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 400
+
+[ask]
+text = "Does the road bend to the right while climbing, with no flicker, holes or popping?"

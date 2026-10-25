@@ -1,0 +1,25 @@
+task  = 9
+step  = 4
+title = "Long single step"
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/lit-1h.json"
+
+[[stage]]
+cmd = "skip_step"
+
+[ask]
+text = "Does the display stay calm and readable for a long single step?"

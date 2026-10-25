@@ -1,0 +1,16 @@
+task  = 8
+step  = 6
+title = "Ride panel"
+loop_seconds = 30
+
+[[stage]]
+cmd = "set_profile"
+name = "flat"
+
+[[stage]]
+cmd = "set_band"
+low_w = 180
+high_w = 220
+
+[ask]
+text = "Press B, change the band, close the panel (the scenario sets 180-220 W again every 30 s). Is the ride panel easy to use?"

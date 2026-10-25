@@ -1,0 +1,25 @@
+task  = 20
+step  = 1
+title = "Countdown into a step change"
+loop_seconds = 30
+# mit-sweetspot-6x5 at FTP 200: the first sweet-spot rep is step 6,
+# 1200-1500 s. 1188 s: 12 s before it starts.
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/mit-sweetspot-6x5.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 1188
+
+[ask]
+text = "Does the countdown make the moment of the step change unmistakable?"

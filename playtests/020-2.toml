@@ -1,0 +1,25 @@
+task  = 20
+step  = 2
+title = "Red numbers over the road"
+loop_seconds = 30
+# mit-sweetspot-6x5 at FTP 200: the first sweet-spot rep is step 6,
+# 1200-1500 s. 1488 s: 12 s before it ends.
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/mit-sweetspot-6x5.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 1488
+
+[ask]
+text = "Are the red numbers readable without covering the road ahead too much?"

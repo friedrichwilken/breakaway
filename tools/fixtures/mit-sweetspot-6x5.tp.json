@@ -1,0 +1,269 @@
+{
+  "workoutId": 100000005,
+  "athleteId": 0,
+  "title": "Sweet spot - 6x5 min",
+  "workoutTypeValueId": 2,
+  "code": null,
+  "workoutDay": "2026-01-09T00:00:00",
+  "startTime": null,
+  "startTimePlanned": null,
+  "isItAnOr": false,
+  "isHidden": null,
+  "completed": null,
+  "description": null,
+  "userTags": null,
+  "hasPrivateWorkoutNoteForCaller": false,
+  "publicSettingValue": 0,
+  "distance": null,
+  "distancePlanned": null,
+  "distanceCustomized": null,
+  "distanceUnitsCustomized": null,
+  "totalTime": null,
+  "totalTimePlanned": null,
+  "heartRateMinimum": null,
+  "heartRateMaximum": null,
+  "heartRateAverage": null,
+  "calories": null,
+  "caloriesPlanned": null,
+  "tssActual": null,
+  "tssPlanned": null,
+  "tssSource": 0,
+  "if": null,
+  "ifPlanned": null,
+  "velocityAverage": null,
+  "velocityPlanned": null,
+  "velocityMaximum": null,
+  "normalizedSpeedActual": null,
+  "normalizedPowerActual": null,
+  "powerAverage": null,
+  "powerMaximum": null,
+  "energy": null,
+  "energyPlanned": null,
+  "elevationGain": null,
+  "elevationGainPlanned": null,
+  "elevationLoss": null,
+  "elevationMinimum": null,
+  "elevationAverage": null,
+  "elevationMaximum": null,
+  "torqueAverage": null,
+  "torqueMaximum": null,
+  "tempMin": null,
+  "tempAvg": null,
+  "tempMax": null,
+  "cadenceAverage": null,
+  "cadenceMaximum": null,
+  "lastModifiedDate": null,
+  "equipmentBikeId": null,
+  "equipmentShoeId": null,
+  "isLocked": null,
+  "complianceDurationPercent": null,
+  "complianceDistancePercent": null,
+  "complianceTssPercent": null,
+  "rpe": null,
+  "feeling": null,
+  "structure": {
+    "structure": [
+      {
+        "type": "repetition",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Easy spin",
+            "length": {
+              "value": 180,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 45,
+                "maxValue": 55
+              }
+            ],
+            "intensityClass": "warmUp",
+            "openDuration": false
+          },
+          {
+            "name": "Endurance",
+            "length": {
+              "value": 420,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 56,
+                "maxValue": 66
+              }
+            ],
+            "intensityClass": "warmUp",
+            "openDuration": false
+          }
+        ],
+        "begin": 0,
+        "end": 600
+      },
+      {
+        "type": "rampUp",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "",
+            "length": {
+              "value": 90,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 60,
+                "maxValue": 68
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "",
+            "length": {
+              "value": 105,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 70,
+                "maxValue": 78
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "name": "",
+            "length": {
+              "value": 75,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 80,
+                "maxValue": 88
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          }
+        ],
+        "begin": 600,
+        "end": 870
+      },
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Recovery",
+            "length": {
+              "value": 330,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 45,
+                "maxValue": 55
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": false
+          }
+        ],
+        "begin": 870,
+        "end": 1200
+      },
+      {
+        "type": "repetition",
+        "length": {
+          "value": 6,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "type": "step",
+            "name": "Sweet spot",
+            "length": {
+              "value": 300,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 84,
+                "maxValue": 94
+              }
+            ],
+            "intensityClass": "active",
+            "openDuration": false
+          },
+          {
+            "type": "step",
+            "name": "Easy",
+            "length": {
+              "value": 120,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 45,
+                "maxValue": 55
+              }
+            ],
+            "intensityClass": "rest",
+            "openDuration": false
+          }
+        ],
+        "begin": 1200,
+        "end": 3720
+      },
+      {
+        "type": "step",
+        "length": {
+          "value": 1,
+          "unit": "repetition"
+        },
+        "steps": [
+          {
+            "name": "Cool down",
+            "length": {
+              "value": 480,
+              "unit": "second"
+            },
+            "targets": [
+              {
+                "minValue": 35,
+                "maxValue": 48
+              }
+            ],
+            "intensityClass": "coolDown",
+            "openDuration": false
+          }
+        ],
+        "begin": 3720,
+        "end": 4200
+      }
+    ],
+    "primaryLengthMetric": "duration",
+    "primaryIntensityMetric": "percentOfFtp",
+    "primaryIntensityTargetOrRange": "range"
+  },
+  "orderOnDay": 1,
+  "personalRecordCount": 0,
+  "syncedTo": null,
+  "poolLengthOptionId": null,
+  "workoutSubTypeId": null,
+  "workoutDeviceSource": null
+}

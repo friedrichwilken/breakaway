@@ -1,0 +1,24 @@
+task  = 21
+step  = 4
+title = "Workout strip height"
+loop_seconds = 30
+# hit-30-30 at FTP 200, 1740 s: in the middle of the 30/30 sets.
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hit-30-30.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 1740
+
+[ask]
+text = "Is the workout strip across the top tall enough to read the steps?"

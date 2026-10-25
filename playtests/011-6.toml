@@ -1,0 +1,31 @@
+task  = 11
+step  = 6
+title = "The break stays away"
+loop_seconds = 90
+# hit-30-30 at FTP 200: the first 20 x 30/30 set is steps 13-52, workout
+# time 1740-2940 s (pulls start at 1740, 1800, ...; drafts at 1770, 1830, ...).
+# 2900 s: 40 s before the set's last step (step 52, 2910-2940 s) ends;
+# 50 s of the recovery after it.
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hit-30-30.json"
+
+[[stage]]
+cmd = "seek_workout"
+elapsed_s = 2900
+
+[[stage]]
+cmd = "set_advantage"
+seconds = 45
+
+[ask]
+text = "Is the outcome of the break clear when the set ends?"

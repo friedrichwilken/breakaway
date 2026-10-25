@@ -1,0 +1,15 @@
+task  = 4
+step  = 2
+title = "Climb ahead"
+# Climb starts at 200 m (blend from 180): ~12 s of approach, then ~8 s on it.
+
+[[stage]]
+cmd = "set_profile"
+name = "hills"
+
+[[stage]]
+cmd = "teleport"
+distance_m = 60
+
+[ask]
+text = "Do you see the climb coming before you reach it?"

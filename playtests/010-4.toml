@@ -1,0 +1,37 @@
+task  = 10
+step  = 4
+title = "Terrain and band change together"
+loop_seconds = 120
+
+[[stage]]
+cmd = "set_ftp"
+ftp_w = 200
+
+[[stage]]
+cmd = "autopilot"
+on = true
+
+[[stage]]
+cmd = "load_workout"
+path = "samples/hidits-4x12.json"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[[stage]]
+cmd = "skip_step"
+
+[ask]
+text = "Does the terrain change at the same moment the band changes?"

@@ -1,0 +1,16 @@
+task  = 13
+step  = 1
+title = "The DS's voice"
+# Free ride: the DS says `workout_start`, then `break_start` (it waits for
+# the first line to end). Said again on every re-stage.
+
+[[stage]]
+cmd = "radio_say"
+key = "workout_start"
+
+[[stage]]
+cmd = "radio_say"
+key = "break_start"
+
+[ask]
+text = "Does the DS's voice fit a sports director, and is every word understandable?"
